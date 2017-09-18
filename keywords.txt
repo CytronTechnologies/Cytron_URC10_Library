@@ -1,52 +1,52 @@
 #######################################
-# Syntax Coloring Map for Cytron Servo Shield
+# Syntax Coloring Map for URC10
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-CytronServoShield	KEYWORD1
+urc10 	KEYWORD1
+URC10	KEYWORD1
+motor	KEYWORD1
+lcd	KEYWORD1
+ultrasonic1	KEYWORD1
+ultrasonic2	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-play 	KEYWORD2
-next	KEYWORD2
-prev	KEYWORD2 
-setVolume	KEYWORD2
-setEQ	KEYWORD2
-setDevice	KEYWORD2
-sleep	KEYWORD2 
-reset	KEYWORD2
-pause	KEYWORD2 
-stop	KEYWORD2 
-on	KEYWORD2
-off	KEYWORD2
-playAll	KEYWORD2
-playTrack	KEYWORD2
-getCurrentDevice	KEYWORD2
-getCurrentStatus	KEYWORD2
-getVolume	KEYWORD2
-getTotalFiles	KEYWORD2
-getTrackNo	KEYWORD2
-repeatTrack	KEYWORD2
-randomPlay	KEYWORD2
-playTrackFromFolder	KEYWORD2
-playFolderRepeat	KEYWORD2
-setErrorCallback	KEYWORD2
-isPlaying	KEYWORD2
-errorCode	KEYWORD2				
-
+begin	KEYWORD2
+enableLcd	KEYWORD2
+enableUltrasonic1	KEYWORD2
+enableUltrasonic2	KEYWORD2
+enableMotor	KEYWORD2
+run 	KEYWORD2
+setDirection	KEYWORD2
+turnLeft	KEYWORD2
+turnRight	KEYWORD2
+forward	KEYWORD2
+reverse	KEYWORD2
+rotateToLeft	KEYWORD2
+rotateToRight	KEYWORD2
+stop	KEYWORD2
+raw	KEYWORD2
+getReadingInCm	KEYWORD2
+getReadingInInch KEYWORD2
+invertDisplay KEYWORD2
+startScrollRight KEYWORD2
+startScrollLeft KEYWORD2
+startScrollDiagRight KEYWORD2
+startScrollDiagLeft KEYWORD2
+stopScroll KEYWORD2
+dim	KEYWORD2
+drawBitmap	KEYWORD2
+isEnabled	KEYWORD2
+			
 #######################################
 # Constants (LITERAL1)
 #######################################
-BUSY	LITERAL1
-SLEEPING	LITERAL1
-SERIAL_WRONG_STACK	LITERAL1
-CHECKSUM_ERR	LITERAL1
-FILE_OUT_OF_INDEX	LITERAL1
-FILE_NOT_FOUND	LITERAL1
-DATA_MISMATCH	LITERAL1
+MOTOR1_LEFT_MOTOR2_RIGHT	LITERAL1
+MOTOR1_RIGHT_MOTOR2_LEFT	LITERAL1
 
