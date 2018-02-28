@@ -23,9 +23,9 @@ void setup() {
   
   // enable lcd manually (don't enable it if there is no I2C device attached
   // will cause hang on Arduino
-  URC10.enableLcd();
+  /*URC10.enableLcd();
   URC10.lcd.setCursor(0,0);
-  URC10.lcd.println("Testing URC10");
+  URC10.lcd.println("Testing URC10");*/
   delay(1000);
 }
 
